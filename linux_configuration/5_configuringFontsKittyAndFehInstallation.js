@@ -46,9 +46,45 @@
 	- we delete outdaded kitty
 		apt remove kitty
 
-	- we copy get absolute path and copy
+	- we copy get absolute path and copy to use this binary
 		pwd
 		/opt/kitty/bin  ---> copy it
+
+	- kitty: to open other terminal in the zame window
+		ctrl + shift + enter
+			- when we open a nested windows, it keep the path of the original path
+
+	- to realize zoom in a focused terminal
+		ctrl + shift + z
+		
+	- go to kitty/kitty.conf to see multicopy-master shortcuts, we can modify or include more shortcuts 		
+
+	- the user root has its own /.config/kitty file, but it is empty
+
+	- if we go to /home/.config/kitty , we will see that this dir is empty
+
+	- we copy all content from kitty in home to root (/root/.......)  : cp /home/pol/.config/kitty/* .
+		
+	================== image background
+
+	-install 
+		sudo apt install imagemagick
+
+	- to open image from kitty
+		kitty +kitten icat imageName.jpg
+
+	- feh: feh help us to load our background image
+		sudo apt install feh
+
+	- to set background with feh
+		feh --bg-fill imageName.jpg
+
+	- we load previous command in /bspwm/bspwmrc to run image, when bspwm run
+	  	feh --bg-fill wp4103768-macaw-wallpapers.jpg &
+	  												&: means in second background 
+	
+
+
 */
 
 /*
