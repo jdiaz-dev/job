@@ -21,16 +21,11 @@
 		sudo cp * /usr/share/fonts/truetype
 
 			
-		
+	to apply the changes and load the fonts recently loaded
+		fc-cache -v		
 
-
-
-
-
-
-
-
-
+	to activate polybar 
+		super + alt + r
 
 
 
