@@ -11,7 +11,7 @@
 		picom &
 		
 
-	if we want to void boders in the windows, open bspwm/bspwm and enter this command at the end
+	(optional) if we want to void boders in the windows, open bspwm/bspwm and enter this command at the end
 		...rest &
 		bspc config border_width 0
 
