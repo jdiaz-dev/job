@@ -1,6 +1,6 @@
 /* 
     - create 2 directories
-        mkdir ~/.config/{bspwm, sxhkd}
+        mkdir ~/.config/{bspwm,sxhkd}
             ~/ : is is part of bash shorthand
             {} : to create to directories at same time
 
@@ -55,9 +55,12 @@
     - ctrl +s to save and ctrl + x to get out
 
 
-    ================ creating script ==================
+    ================ creating scripts folder of the for the previous path setted  ==================
     - creating a file with executions permisions in:
         /home/pol/.config/bspwm/scripts/bspwm_resize
+
+	- bspwm_recive must be fulled with the content of the next link : 
+		https://hack4u.io/wp-content/uploads/2022/09/bspwm_resize.txt
 
     - giving permisions
         chmod +x !$
