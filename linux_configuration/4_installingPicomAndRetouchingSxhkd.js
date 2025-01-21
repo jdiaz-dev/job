@@ -17,10 +17,10 @@
     check if rofi works
         rofi -show run
 
-    we go to sxhkdrc file and add the shortcut with rofi in the next way 
+    we go to sxhkdrc file and override "program launcher" shortcut with rofi in the next way 
         #program launcher (ROFI)
         super + d
-            rofi -show run
+            /usr/bin/rofi -show run
 
     to go to dashboar staring
         kill -9 -1
