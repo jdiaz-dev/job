@@ -9,10 +9,10 @@
 
     - go to bspwm/examples
 
-    - copy bspwmrc in ~/.config file
+    - copy bspwmrc in ~/.config file (it will be executed at moment to run the parrot environment)
         cp bspwmrc ~/.config/bspwm
 
-    - copy sxhkdrc in ~/.config file
+    - copy sxhkdrc in ~/.config file (it will be only to config shorcuts)
         cp sxhkdrc ~/.config/sxhkd
  
     - when bspwmrc is yellow color is because it has executiton permision   
